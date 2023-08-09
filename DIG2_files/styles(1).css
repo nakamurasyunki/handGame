@@ -1,0 +1,83 @@
+:root {
+  --brand-color__page-title: var(--brand-color__neutral--medium);
+  --brand-color__link: #006990;
+  --brand-color__link--dark: #024b65;
+  --brand-color__link--click: #01222e;
+  --brand-color__input-label--highlight: var(--brand-color__primary--dark);
+  --brand-color__input-border--highlight: var(--brand-color__primary--light);
+  --brand-color__success-message: #7ca85f;
+  --brand-color__sidebar-section--light: var(--brand-color__neutral--medium);
+  --brand-color__sidebar-section--medium: var(--brand-color__neutral--dark);
+  --brand-color__sidebar-section--dark: var(--brand-color__neutral--darker);
+  --brand-color__sidebar-bg: var(--brand-color__neutral--darkest);
+  --brand-color__sidebar-underline: #ffe9eb;
+  --brand-color__border-highlight: var(--brand-color__secondary--light);
+  --brand-color__button-bg: var(--brand-color__secondary--medium);
+  --brand-color__secondary-button-bg: var(--brand-color__primary--dark);
+  --brand-color__button-text: white;
+  --brand-color__secondary-button-text: white;
+  --brand-color__button-bg--hover: #015c89;
+  --brand-color__secondary-button-bg--hover: #638f45;
+  --brand-color__button-text--hover: white;
+  --brand-color__button-bg--click: #003955;
+  --brand-color__secondary-button-bg--click: #456e2a;
+  --brand-color__button-text--click: white;
+  --brand-color__cta-button-bg: var(--brand-color__tertiary);
+  --brand-color__cta-button-text: white;
+  --brand-color__cta-button-bg--hover: #5b138a;
+  --brand-color__cta-button-text--hover: white;
+  --brand-color__cta-button-bg--click: #43046d;
+  --brand-color__cta-button-text--click: white;
+  --brand-color__md-heading-bg: var(--brand-color__primary--medium);
+  --brand-color__md-heading-text: var(--brand-color__neutral--darker);
+  --brand-color__block-heading-bg: var(--brand-color__primary--medium);
+  --brand-color__block-heading-text: var(--brand-color__neutral--darker);
+  --brand-color__bicolor-header--primary: var(--brand-color__primary--dark);
+  --brand-color__bicolor-header--secondary: var(--brand-color__primary--light);
+  --brand-color__bicolor-header-text: white;
+  --brand-color__primary--lighter: #eafbe0;
+  --brand-color__primary--light: #c8e1b7;
+  --brand-color__primary--medium: #A9D18E;
+  --brand-color__primary--dark: #7ca85f;
+  --brand-color__primary--darker: #387c2c;
+  --brand-color__primary--darkest: #16440e;
+  --brand-color__secondary--lighter: #00c1d5;
+  --brand-color__secondary--light: #0091da;
+  --brand-color__secondary--medium: #0179b5;
+  --brand-color__secondary--dark: #1a428a;
+  --brand-color__tertiary: #7f35b2;
+  --brand-color__neutral--light: #717074;
+  --brand-color__neutral--medium: #5a5a5d;
+  --brand-color__neutral--dark: #3f3f3f;
+  --brand-color__neutral--darker: #2c2c2c;
+  --brand-color__neutral--darkest: #181818;
+}
+
+.sidebar {
+  background-color: var(--brand-color__sidebar-bg);
+  color: var(--color__text--lightest);
+  font-weight: 800;
+}
+
+.sidebar a:link, .sidebar a:visited {
+  color: var(--color__text--lightest);
+  text-decoration:none;
+}
+
+.sidebar a:hover {
+  color: var(--brand-color__primary--medium);
+  text-decoration:underline;
+}
+
+.sidebar__category {
+  color: var(--color__neutral--lighter);
+}
+
+.login__title--dig {
+  color: var(--brand-color__primary--medium);
+  background-color: #000000;
+  font-size: 4rem;
+  width: 100px;
+  text-align: center;
+  border-radius: 4px;
+}

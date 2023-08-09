@@ -1,0 +1,5 @@
+PageStore.registerPage("dashboard", {
+  authRequired: true,
+  loader: async () => [await Data.loadEnrolledCohorts()],
+  componentBody: "Dashboard",
+});

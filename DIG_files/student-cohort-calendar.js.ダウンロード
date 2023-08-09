@@ -1,0 +1,9 @@
+PageStore.registerPage("student-cohort-calendar", {
+  authRequired: true,
+  loader: async (args) => {
+    let [ cohortId ] = args;
+    let response = await API.send("student.cohortcalendar", { cohortId });
+    return [{ ...response, cohortId }]
+  },
+  componentBody: "CohortCalendar",
+});

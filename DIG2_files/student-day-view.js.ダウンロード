@@ -1,0 +1,14 @@
+PageStore.registerPage("student-day-view", {
+  authRequired: true,
+  loader: async (args) => {
+    let [ cohortId, dayId ] = args;
+    dayId = Util.asyncCohortGetDateFromUrlDate(dayId);
+
+    let response = await API.send(
+      "student.cohortday",
+      { cohortId, dayId, locale: StringTable.getActiveLang() });
+
+    return [{ ...response }];
+  },
+  componentBody: "DayView",
+});

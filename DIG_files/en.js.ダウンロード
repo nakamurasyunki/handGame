@@ -1,0 +1,41 @@
+StringTable.addStrings('en', '', {
+  OK: "OK",
+  CANCEL: "Cancel",
+  EDIT: 'Edit',
+  CHANGE: 'Change',
+  UPDATE: "Update",
+  DELETE: 'Delete',
+  LOADING: "Loading...",
+
+  NAV_DASHBOARD: "Dashboard",
+  NAV_SETTINGS: "Account Settings",
+  NAV_UPDATE_PHOTO: "Update Photo",
+  NAV_SIGN_OUT: "Sign Out",
+  NAV_COHORT_HEADER: "Cohorts",
+  NAV_NO_COHORTS: "No enrolled cohorts.",
+
+  // This is already defined above, silly. Please de-duplciate this.
+  MON: "Mon",
+  TUE: "Tue",
+  WED: "Wed",
+  THU: "Thu",
+  FRI: "Fri",
+  SAT: "Sat",
+  SUN: "Sun",
+
+  LESSON_TITLE: "Lesson {0}",
+  LESSON_MATERIALS: "Lesson Materials",
+  LESSON_SLIDES: "Slides",
+  LESSON_VIDEO: "Video",
+  LESSON_VIDEOS: "Videos",
+  LINK_UNKNOWN: "Reading",
+  LESSON_TEXT: "Reading",
+  LESSON_WARMUP: "Warmup",
+
+  ERROR_INCORRECT_LOGIN: "Incorrect username or password.",
+
+  CORE_ERROR_DENIED: "You do not have access to this feature.",
+  CORE_ERROR_VERSION_CHANGE: "The site has been updated. You must refresh the page.",
+  CORE_ERROR_NOT_LOGGED_IN: "You have been logged out.",
+  LOG_BACK_IN: "Click here to log back in."
+});

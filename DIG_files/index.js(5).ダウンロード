@@ -1,0 +1,1 @@
+Util.preRegisterComponent("NameTile"),(async()=>{await Util.loadComponent("ProfilePhoto"),Util.registerComponent("NameTile",e=>{var{Div:i,Span:o}=HTML;return i({fontSize:"1.3rem",bold:!0,marginRight:"32px"},i({display:"inline-block",width:"24px",marginRight:"8px"},Components.ProfilePhoto(e,24)),o({position:"relative",top:"-8px"},UserStore.getProfile(e).name))})})();
